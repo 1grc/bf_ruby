@@ -1,6 +1,4 @@
-require "bf_ruby/version"
+# frozen_string_literal: true
 
-module BfRuby
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require "bf_ruby/version"
+require "bf_ruby/translator"

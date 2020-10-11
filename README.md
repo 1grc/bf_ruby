@@ -1,6 +1,6 @@
 # BfRuby
 
-BfRuby is Brainf**k interpreter.
+BfRuby is Brainf**k interpreter written in Ruby.
 
 ## Installation
 
@@ -19,7 +19,9 @@ Or install it yourself as:
     $ gem install bf_ruby
 
 ## Usage
+```ruby
 BfRuby::Translator.translate(brainf**k_source)
+```
 
 ## License
 
